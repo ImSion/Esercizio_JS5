@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MY POV SHOP</title>
+</head>
+<body id="body">
+
+    <!-- header della pagina -->
+    <header>
+        <nav id="nav">
+            <div class="title">
+                <h1 id="povtitle"> My POV Shop</h1>
+            </div>
+
+            <div class="nightmode">
+                <button id="modnotte"> Modalità Notte</button>
+            </div>
+            
+        </nav>
+    </header>
+
+
+    <!-- corpo principale della pagina -->
+    <main>
+
+        <!-- idv contenente la tabella oggetti -->
+       <div class="tables">
+
+        <!-- tabella -->
+         <table>
+
+            <!-- catgorie tabella -->
+            <h3>Most Buyed products</h3>
+            <button id="noimg"> Annunci solo testo</button>
+            <tr>
+                <th class="categories">Tecnologia</th>
+                <th class="categories">Abbigliamento</th>
+                <th class="categories">Collezione</th>
+                <th class="categories">Giocattoli</th>
+                <th class="categories">Per la casa</th>
+            </tr>
+            
+            <tr>
+                <!-- oggetti in vendita -->
+                <td class="items">
+                    <img class="imgtab" src="assets/GalaxySultra.png" alt="s22ultra">
+                    <h4> Galaxy s22 ultra</h4>
+                    <h6> 128GB - 8GB RAM - 100MPXS</h6>
+                    <h5 class="price"> 899€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Samsung-Galaxy-SM-S908B-Android-Type-C/dp/B0B3RGYWQ4/ref=sr_1_1?crid=RBZ80GVVMOBG&dib=eyJ2IjoiMSJ9.l31b2TGDM58wneNG9IPNuQrAXC6hN2gmw0-Oqx34Ylah_w5JJ9RJRvBtyl12Y0qp3xRqj7bI4MPF0Y-r0eu_5Bl8hYMlOHNTPcQrpAIViXCdKsDi5ZBriwnfO-secRo4ZmgmPUb9BTpOfjeyBVj3JPZeEVixWOPncN-jjYkB3fvTTLdRTF6RzRJjlHFko_VyrX50DNZCK5crLFYxVpY5oH5Gm0x2MeOBvhBIpGkQJbNODp9e0J_7fDX2Dh0YQ62KCJlssEME8T73nSy5y3b50b9qQW3gABynHozuY2YuiaU.884f68FBk4T2ZWzFpts6F-2s6-oA5hYkLVhISDf9rBg&dib_tag=se&keywords=s22+ultra&qid=1708731660&sprefix=s22%2Caps%2C145&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C911VgR023OL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png" alt="T-Shirt">
+                    <h4>T-Shirt vikings</h4>
+                    <h6> 100% cotone</h6>
+                    <h5 class="price"> 18.99€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Viking-Valhalla-Nordish-Mythology-Maglietta/dp/B08NHWG4HP/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=18V8V0S8N1UVE&dib=eyJ2IjoiMSJ9.H8Hu0p544rBvBjEBGPZiYaiAuWw3IcwypfrVA8n-fIe-hS07ni6kKHHwJVw4B7DqNoYe7AE7lrrw8nHd7PWQmR2TxF39N4Zl5bfPfPUXGrr1l6UecvP0KsM_SCbTeIo1R1kyn03RX0JgGRRgwen4gqi8OUV5U9-dmWnNBKQzCXT6-SuHft8EESKiv-pNRUfUgIrtO91S7O1DOB_CjVDzh2Up3lDJo7t5S20-8WWgXnnQ2E9PZcFUsOPJfWdY-Mw9Z8z99Ar4jRA30nwLDQb8kl6obyqJsX0A94CYL6SgpfA.S2B7mwA-Pcg4xs3Fmbd5vLuaHRVUhN0jCNrqnkATaog&dib_tag=se&keywords=maglietta+vikings&qid=1708733247&sprefix=maglietta+vikings%2Caps%2C108&sr=8-5" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71A-nD0ZK9L._AC_SL1500_.jpg" alt="Gojo AF">
+                    <h4> Gojo Action Figure</h4>
+                    <h6> PVC - 18CM</h6>
+                    <h5 class="price"> 100.14€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/MERCHANDISING-LICENCE-Kaisen-Satoru-Gojo-Figurine-Figuarts/dp/B09TFBFXBJ/ref=sr_1_14?crid=3PAOYA5C4O5NB&dib=eyJ2IjoiMSJ9.wBctmWZHmrVRZtY_pQ63h28IS-Zeeo6DrZ0xzt3ZadQwZumcDH0EpgT506TMvrAMtgd-tFDMv4Cgy9XBqjGu7vKMzlOp3atE-HSMGbQwq1p_HzjH18mD31N5d9luEFizTxSE48Ogd_g1WtAwUh45U2MUvTB2SrG8kqYB1z0rMGDoUEx8PzLAPsXR7sV5yKwVTQ3VBaG2NsIqweXDaqJambVJhixSqHlV-gyMwIDwjihXTqK8QDG7eL7ZpHiAlBhu1a9fpKe-DHR2oV637T0ijveCEVMC0Zk-Hc474Mpv9tA.5EdnIK31DfViAr4UKtRc_hCZ-cLWkMisrFycD3LPmJc&dib_tag=se&keywords=gojo+action+figure&qid=1708733493&sprefix=gojo%2Caps%2C128&sr=8-14&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/91JWFZL8JuL._AC_SL1500_.jpg" alt="lego">
+                    <h4> Lego Star Wars</h4>
+                    <h6> Starfighter, Boba Fett</h6>
+                    <h5 class="price"> 12.79€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/LEGO-75363-Starfighter-Mandaloriano-Microfighter/dp/B0BV7BVR1W/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15C0LDGJQAIDN&dib=eyJ2IjoiMSJ9.S_FGnj3nPbnNIh6_3R3lxSEjAgmsuHabzERn71IDtIkDY5MKXk4VdridfzRlv8QDIEXxWaRkFQIBwkDrHeTs8auaRwsrLt1BOAxoSbWl9qvHPgRtgKxI4uSw-8pmJw-8u67zkFBiEcnRPIpthJTkgVXmsZLMsRwc0DnFULZL1zTqk8iPyPIXCEJpcLnPh0o_-z1M8gW0Ge2jIr3yfs0gpqei74lhx7gJVmdTfSsK-PduztraZfjHkU14IIjxW2aLYc4SMMz_y1hgC0GKN65enpm-7FhmM8Nx7oleAuFiMD4.M4eEc0WfCYR6LE9af2OFKAlLGrb1oKdtUcYP7ywrqAw&dib_tag=se&keywords=lego+star+wars&qid=1708733591&sprefix=lego+star+wars%2Caps%2C121&sr=8-1" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71xkebTRMGL._AC_SL1500_.jpg" alt="mocio vileda">
+                    <h4> Mocio Vileda Turbo</h4>
+                    <h6> Manico Telescopico 85-130cm</h6>
+                    <h5 class="price"> 41.92€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Vileda-Mop-Rosso-Bianco-Grande/dp/B09MR8CMH7/ref=sr_1_7?crid=366MANYYTOZ50&dib=eyJ2IjoiMSJ9.65ar9lJZxXFnyFQ_PwYYSxDiuOmHyN1Varaorw4FSw2m5jui5lnZy7z95TTsO72adyiMSjQe-l1SiQAfIDgL7kLXjJTl6SS5Lav7Ss_WNbttFs6dMyV7aCTFs-U1_A52mEn4jnRL_f5ccJGV3eir7dOdN2GtnwbTUMGzqBFGgjfOId2nmvhTN8ulF0JzjolpwMYyxz96CX5qAoa233t7B_J9Pnu1KDeEryK-Wb5KLk8xt3m-ergmNJIhurWhk0hSFV-eAlp6MAbsTwatnMlRLUh_Joky-KCycApAxi_fe0E._L5iQvYdViUPQZQJkfFlWM5ajVeJYuZS7wtNSBf5JOQ&dib_tag=se&keywords=vileda%2Blavapavimenti&qid=1708733723&sprefix=vileda%2Caps%2C118&sr=8-7&th=1" target="_blank">Acquista</a>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="items">
+                    <img class="imgtab" src="assets/GalaxySultra.png" alt="s22ultra">
+                    <h4> Galaxy s22 ultra</h4>
+                    <h6> 128GB - 8GB RAM - 100MPXS</h6>
+                    <h5 class="price"> 899€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Samsung-Galaxy-SM-S908B-Android-Type-C/dp/B0B3RGYWQ4/ref=sr_1_1?crid=RBZ80GVVMOBG&dib=eyJ2IjoiMSJ9.l31b2TGDM58wneNG9IPNuQrAXC6hN2gmw0-Oqx34Ylah_w5JJ9RJRvBtyl12Y0qp3xRqj7bI4MPF0Y-r0eu_5Bl8hYMlOHNTPcQrpAIViXCdKsDi5ZBriwnfO-secRo4ZmgmPUb9BTpOfjeyBVj3JPZeEVixWOPncN-jjYkB3fvTTLdRTF6RzRJjlHFko_VyrX50DNZCK5crLFYxVpY5oH5Gm0x2MeOBvhBIpGkQJbNODp9e0J_7fDX2Dh0YQ62KCJlssEME8T73nSy5y3b50b9qQW3gABynHozuY2YuiaU.884f68FBk4T2ZWzFpts6F-2s6-oA5hYkLVhISDf9rBg&dib_tag=se&keywords=s22+ultra&qid=1708731660&sprefix=s22%2Caps%2C145&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C911VgR023OL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png" alt="T-Shirt">
+                    <h4>T-Shirt vikings</h4>
+                    <h6> 100% cotone</h6>
+                    <h5 class="price"> 18.99€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Viking-Valhalla-Nordish-Mythology-Maglietta/dp/B08NHWG4HP/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=18V8V0S8N1UVE&dib=eyJ2IjoiMSJ9.H8Hu0p544rBvBjEBGPZiYaiAuWw3IcwypfrVA8n-fIe-hS07ni6kKHHwJVw4B7DqNoYe7AE7lrrw8nHd7PWQmR2TxF39N4Zl5bfPfPUXGrr1l6UecvP0KsM_SCbTeIo1R1kyn03RX0JgGRRgwen4gqi8OUV5U9-dmWnNBKQzCXT6-SuHft8EESKiv-pNRUfUgIrtO91S7O1DOB_CjVDzh2Up3lDJo7t5S20-8WWgXnnQ2E9PZcFUsOPJfWdY-Mw9Z8z99Ar4jRA30nwLDQb8kl6obyqJsX0A94CYL6SgpfA.S2B7mwA-Pcg4xs3Fmbd5vLuaHRVUhN0jCNrqnkATaog&dib_tag=se&keywords=maglietta+vikings&qid=1708733247&sprefix=maglietta+vikings%2Caps%2C108&sr=8-5" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71A-nD0ZK9L._AC_SL1500_.jpg" alt="Gojo AF">
+                    <h4> Gojo Action Figure</h4>
+                    <h6> PVC - 18CM</h6>
+                    <h5 class="price"> 100.14€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/MERCHANDISING-LICENCE-Kaisen-Satoru-Gojo-Figurine-Figuarts/dp/B09TFBFXBJ/ref=sr_1_14?crid=3PAOYA5C4O5NB&dib=eyJ2IjoiMSJ9.wBctmWZHmrVRZtY_pQ63h28IS-Zeeo6DrZ0xzt3ZadQwZumcDH0EpgT506TMvrAMtgd-tFDMv4Cgy9XBqjGu7vKMzlOp3atE-HSMGbQwq1p_HzjH18mD31N5d9luEFizTxSE48Ogd_g1WtAwUh45U2MUvTB2SrG8kqYB1z0rMGDoUEx8PzLAPsXR7sV5yKwVTQ3VBaG2NsIqweXDaqJambVJhixSqHlV-gyMwIDwjihXTqK8QDG7eL7ZpHiAlBhu1a9fpKe-DHR2oV637T0ijveCEVMC0Zk-Hc474Mpv9tA.5EdnIK31DfViAr4UKtRc_hCZ-cLWkMisrFycD3LPmJc&dib_tag=se&keywords=gojo+action+figure&qid=1708733493&sprefix=gojo%2Caps%2C128&sr=8-14&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/91JWFZL8JuL._AC_SL1500_.jpg" alt="lego">
+                    <h4> Lego Star Wars</h4>
+                    <h6> Starfighter, Boba Fett</h6>
+                    <h5 class="price"> 12.79€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/LEGO-75363-Starfighter-Mandaloriano-Microfighter/dp/B0BV7BVR1W/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15C0LDGJQAIDN&dib=eyJ2IjoiMSJ9.S_FGnj3nPbnNIh6_3R3lxSEjAgmsuHabzERn71IDtIkDY5MKXk4VdridfzRlv8QDIEXxWaRkFQIBwkDrHeTs8auaRwsrLt1BOAxoSbWl9qvHPgRtgKxI4uSw-8pmJw-8u67zkFBiEcnRPIpthJTkgVXmsZLMsRwc0DnFULZL1zTqk8iPyPIXCEJpcLnPh0o_-z1M8gW0Ge2jIr3yfs0gpqei74lhx7gJVmdTfSsK-PduztraZfjHkU14IIjxW2aLYc4SMMz_y1hgC0GKN65enpm-7FhmM8Nx7oleAuFiMD4.M4eEc0WfCYR6LE9af2OFKAlLGrb1oKdtUcYP7ywrqAw&dib_tag=se&keywords=lego+star+wars&qid=1708733591&sprefix=lego+star+wars%2Caps%2C121&sr=8-1" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71xkebTRMGL._AC_SL1500_.jpg" alt="mocio vileda">
+                    <h4> Mocio Vileda Turbo</h4>
+                    <h6> Manico Telescopico 85-130cm</h6>
+                    <h5 class="price"> 41.92€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Vileda-Mop-Rosso-Bianco-Grande/dp/B09MR8CMH7/ref=sr_1_7?crid=366MANYYTOZ50&dib=eyJ2IjoiMSJ9.65ar9lJZxXFnyFQ_PwYYSxDiuOmHyN1Varaorw4FSw2m5jui5lnZy7z95TTsO72adyiMSjQe-l1SiQAfIDgL7kLXjJTl6SS5Lav7Ss_WNbttFs6dMyV7aCTFs-U1_A52mEn4jnRL_f5ccJGV3eir7dOdN2GtnwbTUMGzqBFGgjfOId2nmvhTN8ulF0JzjolpwMYyxz96CX5qAoa233t7B_J9Pnu1KDeEryK-Wb5KLk8xt3m-ergmNJIhurWhk0hSFV-eAlp6MAbsTwatnMlRLUh_Joky-KCycApAxi_fe0E._L5iQvYdViUPQZQJkfFlWM5ajVeJYuZS7wtNSBf5JOQ&dib_tag=se&keywords=vileda%2Blavapavimenti&qid=1708733723&sprefix=vileda%2Caps%2C118&sr=8-7&th=1" target="_blank">Acquista</a>
+
+                </td>
+            </tr>
+      
+            <tr>
+                <td class="items">
+                    <img class="imgtab" src="assets/GalaxySultra.png" alt="s22ultra">
+                    <h4> Galaxy s22 ultra</h4>
+                    <h6> 128GB - 8GB RAM - 100MPXS</h6>
+                    <h5 class="price"> 899€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Samsung-Galaxy-SM-S908B-Android-Type-C/dp/B0B3RGYWQ4/ref=sr_1_1?crid=RBZ80GVVMOBG&dib=eyJ2IjoiMSJ9.l31b2TGDM58wneNG9IPNuQrAXC6hN2gmw0-Oqx34Ylah_w5JJ9RJRvBtyl12Y0qp3xRqj7bI4MPF0Y-r0eu_5Bl8hYMlOHNTPcQrpAIViXCdKsDi5ZBriwnfO-secRo4ZmgmPUb9BTpOfjeyBVj3JPZeEVixWOPncN-jjYkB3fvTTLdRTF6RzRJjlHFko_VyrX50DNZCK5crLFYxVpY5oH5Gm0x2MeOBvhBIpGkQJbNODp9e0J_7fDX2Dh0YQ62KCJlssEME8T73nSy5y3b50b9qQW3gABynHozuY2YuiaU.884f68FBk4T2ZWzFpts6F-2s6-oA5hYkLVhISDf9rBg&dib_tag=se&keywords=s22+ultra&qid=1708731660&sprefix=s22%2Caps%2C145&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C911VgR023OL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png" alt="T-Shirt">
+                    <h4>T-Shirt vikings</h4>
+                    <h6> 100% cotone</h6>
+                    <h5 class="price"> 18.99€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Viking-Valhalla-Nordish-Mythology-Maglietta/dp/B08NHWG4HP/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=18V8V0S8N1UVE&dib=eyJ2IjoiMSJ9.H8Hu0p544rBvBjEBGPZiYaiAuWw3IcwypfrVA8n-fIe-hS07ni6kKHHwJVw4B7DqNoYe7AE7lrrw8nHd7PWQmR2TxF39N4Zl5bfPfPUXGrr1l6UecvP0KsM_SCbTeIo1R1kyn03RX0JgGRRgwen4gqi8OUV5U9-dmWnNBKQzCXT6-SuHft8EESKiv-pNRUfUgIrtO91S7O1DOB_CjVDzh2Up3lDJo7t5S20-8WWgXnnQ2E9PZcFUsOPJfWdY-Mw9Z8z99Ar4jRA30nwLDQb8kl6obyqJsX0A94CYL6SgpfA.S2B7mwA-Pcg4xs3Fmbd5vLuaHRVUhN0jCNrqnkATaog&dib_tag=se&keywords=maglietta+vikings&qid=1708733247&sprefix=maglietta+vikings%2Caps%2C108&sr=8-5" target="_blank">Acquista</a>
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71A-nD0ZK9L._AC_SL1500_.jpg" alt="Gojo AF">
+                    <h4> Gojo Action Figure</h4>
+                    <h6> PVC - 18CM</h6>
+                    <h5 class="price"> 100.14€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/MERCHANDISING-LICENCE-Kaisen-Satoru-Gojo-Figurine-Figuarts/dp/B09TFBFXBJ/ref=sr_1_14?crid=3PAOYA5C4O5NB&dib=eyJ2IjoiMSJ9.wBctmWZHmrVRZtY_pQ63h28IS-Zeeo6DrZ0xzt3ZadQwZumcDH0EpgT506TMvrAMtgd-tFDMv4Cgy9XBqjGu7vKMzlOp3atE-HSMGbQwq1p_HzjH18mD31N5d9luEFizTxSE48Ogd_g1WtAwUh45U2MUvTB2SrG8kqYB1z0rMGDoUEx8PzLAPsXR7sV5yKwVTQ3VBaG2NsIqweXDaqJambVJhixSqHlV-gyMwIDwjihXTqK8QDG7eL7ZpHiAlBhu1a9fpKe-DHR2oV637T0ijveCEVMC0Zk-Hc474Mpv9tA.5EdnIK31DfViAr4UKtRc_hCZ-cLWkMisrFycD3LPmJc&dib_tag=se&keywords=gojo+action+figure&qid=1708733493&sprefix=gojo%2Caps%2C128&sr=8-14&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/91JWFZL8JuL._AC_SL1500_.jpg" alt="lego">
+                    <h4> Lego Star Wars</h4>
+                    <h6> Starfighter, Boba Fett</h6>
+                    <h5 class="price"> 12.79€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/LEGO-75363-Starfighter-Mandaloriano-Microfighter/dp/B0BV7BVR1W/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15C0LDGJQAIDN&dib=eyJ2IjoiMSJ9.S_FGnj3nPbnNIh6_3R3lxSEjAgmsuHabzERn71IDtIkDY5MKXk4VdridfzRlv8QDIEXxWaRkFQIBwkDrHeTs8auaRwsrLt1BOAxoSbWl9qvHPgRtgKxI4uSw-8pmJw-8u67zkFBiEcnRPIpthJTkgVXmsZLMsRwc0DnFULZL1zTqk8iPyPIXCEJpcLnPh0o_-z1M8gW0Ge2jIr3yfs0gpqei74lhx7gJVmdTfSsK-PduztraZfjHkU14IIjxW2aLYc4SMMz_y1hgC0GKN65enpm-7FhmM8Nx7oleAuFiMD4.M4eEc0WfCYR6LE9af2OFKAlLGrb1oKdtUcYP7ywrqAw&dib_tag=se&keywords=lego+star+wars&qid=1708733591&sprefix=lego+star+wars%2Caps%2C121&sr=8-1" target="_blank">Acquista</a>
+
+                </td>
+                <td class="items">
+                    <img class="imgtab" src="https://m.media-amazon.com/images/I/71xkebTRMGL._AC_SL1500_.jpg" alt="mocio vileda">
+                    <h4> Mocio Vileda Turbo</h4>
+                    <h6> Manico Telescopico 85-130cm</h6>
+                    <h5 class="price"> 41.92€ </h5>
+                    <a class="linkamz" href="https://www.amazon.it/Vileda-Mop-Rosso-Bianco-Grande/dp/B09MR8CMH7/ref=sr_1_7?crid=366MANYYTOZ50&dib=eyJ2IjoiMSJ9.65ar9lJZxXFnyFQ_PwYYSxDiuOmHyN1Varaorw4FSw2m5jui5lnZy7z95TTsO72adyiMSjQe-l1SiQAfIDgL7kLXjJTl6SS5Lav7Ss_WNbttFs6dMyV7aCTFs-U1_A52mEn4jnRL_f5ccJGV3eir7dOdN2GtnwbTUMGzqBFGgjfOId2nmvhTN8ulF0JzjolpwMYyxz96CX5qAoa233t7B_J9Pnu1KDeEryK-Wb5KLk8xt3m-ergmNJIhurWhk0hSFV-eAlp6MAbsTwatnMlRLUh_Joky-KCycApAxi_fe0E._L5iQvYdViUPQZQJkfFlWM5ajVeJYuZS7wtNSBf5JOQ&dib_tag=se&keywords=vileda%2Blavapavimenti&qid=1708733723&sprefix=vileda%2Caps%2C118&sr=8-7&th=1" target="_blank">Acquista</a>
+
+                </td>
+            </tr>
+                 
+         </table>
+       </div>
+
+       <div class="review">
+        <form>
+            <input class="pholder" type="text" placeholder="Nickname utente">
+            <input class="pholder" type="text" placeholder="Email utente">
+            <input class="pholder" type="text" placeholder="Prodotto da recensire">
+            <textarea name="Recensione" id="txarea" cols="65" rows="10"></textarea>
+            <button> Invia </button>            
+        </form>
+       </div>
+
+        <!-- footer della pagina -->
+     <footer id="indirizzo">
+         <h4>My Point Of View - Via di quelli che non si arrendono, 777, Olimpo </h4>
+         <h4>Per assistenza : NeverGiveUp@icantlose.com</h4>
+     </footer>
+
+
+    </main>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
