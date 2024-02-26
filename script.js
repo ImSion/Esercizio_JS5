@@ -6,7 +6,7 @@ const modNotte = document.getElementById(`modnotte`) ;
 const indirizzo = document.getElementById(`indirizzo`) ;
 const linkAmz = document.getElementsByClassName(`linkamz`) ;
 const soloTesto = document.getElementById(`noimg`) ;
-const prezzo = document.getElementsByClassName(`price`) ;
+const prezzo = document.getElementsByTagName(`h5`) ;
 const imgTab = document.getElementsByClassName(`imgtab`)
 
 const body = document.getElementById(`body`) ;
@@ -58,37 +58,30 @@ soloTesto.addEventListener("click" , function(compare) {
     
 })
 
-soloTesto(true)
 
 
+function randomNumber() {
+    return Math.floor(Math.random() * 256) ;
+}
+console.log(randomNumber);
 
 
+function RandomPriceColor() {
+    let r = randomNumber () ;
+    let g = randomNumber () ;
+    let b = randomNumber () ;
+    let colore = "rgb" + "(" + r + " , " + g + " , "+ b + ")" ;
+    return colore ;
+}
+console.log(RandomPriceColor);
 
+let randomColor = RandomPriceColor() ;
+for (let i = 0; prezzo.length; i++) {
+    prezzo[i].addEventListener("mouseover" , function() {
+        prezzo[i].style.color = RandomPriceColor
+    })
+}
 
-function randomColor() {
-    let color = [];
-    for (let i = 0; i < 3; i++) {
-      color.push(Math.floor(Math.random() * 256));
-    }
-    return 'rgb(' + color.join(', ') + ')';
-  } 
-  
-  prezzo.addEventListener("mouseover", function(){
-    prezzo.style.backgroundColor = randomColor();
-  });
-
-// function coloreRandom() {
-//     for (let i = 0; i < prezzo.length; i++) {
-//         let r = Math.floor(Math.random() * 256);
-//         let g = Math.floor(Math.random() * 256);
-//         let b = Math.floor(Math.random() * 256);
-//         let colore = "rgb(" + r + ", " + g + ", " + b + ")";
-//         prezzo[i].style.color = colore
-//     }
-//     return prezzo
-// }
-
-// coloreRandom()
 
 
 

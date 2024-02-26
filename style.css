@@ -65,7 +65,8 @@ main {
 textarea {
     border: 1px solid black;
     margin-top: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+
 }
 
 button {
@@ -123,12 +124,7 @@ h4, h5, h6 {
 }
 
 .price {
-    cursor: pointer;
-    
-}
-
-.priceover:hover {
-    color: red;
+    cursor: pointer;    
 }
 
 .imgtab {
