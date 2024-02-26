@@ -59,29 +59,26 @@ soloTesto.addEventListener("click" , function(compare) {
 })
 
 
-
+// ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 function randomNumber() {
-    return Math.floor(Math.random() * 256) ;
+    return Math.floor(Math.random() * 256);
 }
-console.log(randomNumber);
-
 
 function RandomPriceColor() {
-    let r = randomNumber () ;
-    let g = randomNumber () ;
-    let b = randomNumber () ;
-    let colore = "rgb" + "(" + r + " , " + g + " , "+ b + ")" ;
-    return colore ;
-}
-console.log(RandomPriceColor);
-
-let randomColor = RandomPriceColor() ;
-for (let i = 0; prezzo.length; i++) {
-    prezzo[i].addEventListener("mouseover" , function() {
-        prezzo[i].style.color = RandomPriceColor
-    })
+    let r = randomNumber();
+    let g = randomNumber();
+    let b = randomNumber();
+    let colore = "rgb(" + r + "," + g + "," + b + ")";
+    return colore;
 }
 
 
+for (let i = 0; i < prezzo.length; i++) {
+    prezzo[i].addEventListener("mouseover", function() {
+
+        let randomColor = RandomPriceColor();
+        prezzo[i].style.color = randomColor;
+    });
+}
 
 
